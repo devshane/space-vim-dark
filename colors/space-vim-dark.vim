@@ -81,7 +81,7 @@ endfunction
 let s:n_bg = 235
 
 call s:hi('Normal' , 249 , s:n_bg , 'None' , 'None' )
-hi Normal       guibg=#292b2e
+hi Normal       guibg=NONE
 
 call s:hi('Cursor' , 88 , 214 , 'bold' , 'bold')
 hi Cursor       guifg=#330033 guibg=#FF9331
@@ -90,7 +90,7 @@ call s:hi('LineNr'       , 238 , s:n_bg-1 , 'None' , 'None' )
 call s:hi('CursorLine'   , ''  , s:n_bg-1 , 'None' , 'None' )
 call s:hi('CursorLineNr' , 134 , s:n_bg-1 , 'None' , 'None' )
 call s:hi('CursorColumn' , ''  , s:n_bg-1 , 'None' , 'None')
-hi LineNr       guifg=#44505c guibg=#212026
+hi LineNr       guifg=#44505c guibg=NONE
 hi CursorLine                 guibg=#212026
 hi CursorLineNr               guibg=#212026
 hi CursorColumn               guibg=#212026
